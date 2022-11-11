@@ -1,0 +1,30 @@
+footer {
+    height: 180px;
+    padding-top: 32px;
+    text-align: center;
+}
+
+footer a {
+    color: rgb(251, 206, 8);
+}
+
+.rodape-info{
+    width: 1020px;
+    margin-top: 10px;
+}
+
+.fala-comigo {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1040px) {
+    footer{
+        padding: 16px 0 24px 0;
+    }
+
+    .rodape-info {
+        width: 200px;
+    }
+}
