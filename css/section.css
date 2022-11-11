@@ -1,0 +1,127 @@
+section {
+    width: 1020px;
+    height: 480px;
+    margin: 0 auto;
+    padding-top: 48px;
+    position: relative;
+    color: rgb(85, 85, 85);
+}
+
+.apresentacao {
+    display: inline-block;
+}
+
+.apresentacao h1 {
+    font-size: 72px;
+    margin-top: 64px;
+}
+
+.perfil-imagem {
+    position: absolute;
+    width: 300px;
+    aspect-ratio: 1;
+    background-position: center;
+    background-size: cover;
+    right: 80px;
+    top: 90px;
+    border-radius: 50%;
+    border-radius: rgb(85,85,85) 16px solid;
+}
+
+.apresentacao h2 {
+    margin: 16px 0;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.imagem-contato {
+    width: 40px;
+}
+
+.contato {
+    position: relative;
+    margin-top: 4px;
+}
+
+.contato p {
+    position: absolute;
+    top: 10px;
+    left: 48px;
+}
+
+.redes {
+    position: absolute;
+    right: 0;
+    top: 170px;
+}
+
+.redes img {
+    width: 48px;
+    display: block;
+    margin-bottom: 8px;
+    transition: 0.7s transform;
+}
+
+.redes img:hover {
+    transform: scale(1.5);
+}
+
+@media screen and (max-width:1040px) {
+    section {
+        width: 360px;
+        height: 440px;
+    }
+
+    .perfil-imagem {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 120px;
+        top: 16px;
+        border-width: 8px;
+    }
+
+    .apresentacao {
+        display: block;
+    }
+
+    .apresentacao h1 {
+        text-align: center;
+        font-size: 28px;
+        margin-top: 120px;
+    }
+
+    .apresentacao h2 {
+        text-align: center;
+        font-size: 14px;
+        margin: 4px 0 24px;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    .imagem-contato {
+        width: 32px;
+    }
+
+    .contato {
+        top: 7px;
+        left: 40px;
+    }
+
+    .redes {
+        position: absolute;
+        top: 400px;
+        right: 0;
+        left: 0;
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .redes img {
+        width: 48px;
+        display: inline-block;
+        margin-bottom: 8px;
+    }
+}
+    

@@ -59,6 +59,7 @@ main div {
 .icone-habilidades {
     width: 80px;
     transition: 0.7s transform;
+    margin: 0 auto;
 }
 
 .icone-habilidades:hover {
