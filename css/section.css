@@ -4,7 +4,7 @@ section {
     margin: 0 auto;
     padding-top: 48px;
     position: relative;
-    color: rgb(85, 85, 85);
+    color: rgb(24, 21, 0);
 }
 
 .apresentacao {
@@ -25,7 +25,7 @@ section {
     right: 80px;
     top: 90px;
     border-radius: 50%;
-    border-radius: rgb(85,85,85) 16px solid;
+    border-radius: rgb(24, 21, 0) 16px solid;
 }
 
 .apresentacao h2 {

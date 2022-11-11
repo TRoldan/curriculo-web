@@ -4,11 +4,11 @@ footer {
     text-align: center;
 }
 
-footer a {
+footer, a {
     color: rgb(251, 206, 8);
 }
 
-.rodape-info{
+.rodape-info {
     width: 1020px;
     margin-top: 10px;
 }
@@ -20,7 +20,7 @@ footer a {
 }
 
 @media screen and (max-width: 1040px) {
-    footer{
+    footer {
         padding: 16px 0 24px 0;
     }
 

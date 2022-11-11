@@ -35,10 +35,14 @@ main div {
     margin-top: 48px;
 }
 
+strong {
+    font-weight: bold;
+}
+
 .bckg-txt {
     background-color: rgb(247, 237, 79);
-    box-shadow: 1px 1px 16px rgba(85, 85, 85);
-    color: rgb(248, 243, 158);
+    box-shadow: 1px 1px 16px rgba(24, 21, 0);
+    color: rgb(6, 6, 6);
     padding: 18px;
     display: inline-block;
     border-radius: 8px;
@@ -49,7 +53,7 @@ main div {
 }
 
 .bckg-txt a {
-    color: rgb(248, 243, 158);
+    color: rgb(6, 6, 6);
 }
 
 .margem-box {
@@ -58,7 +62,7 @@ main div {
 
 .icone-habilidades {
     width: 80px;
-    transition: 0.7s transform;
+    transition: 0.7s;
     margin: 0 auto;
 }
 
@@ -73,10 +77,11 @@ main div {
 
 .icone-interesses {
     width: 80px;
-    transition: 0.7s transform;
+    transition: 0.7s;
+    margin: 0 auto;
 }
 
-.icones-interesses:hover {
+.icone-interesses:hover {
     cursor: pointer;
     transform: scale(1.2);
 }
