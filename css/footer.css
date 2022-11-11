@@ -5,12 +5,12 @@ footer {
 }
 
 footer, a {
-    color: rgb(251, 206, 8);
+    color: rgb(5, 5, 5);
 }
 
 .rodape-info {
     width: 1020px;
-    margin-top: 10px;
+    margin: 0 auto 52px;
 }
 
 .fala-comigo {
@@ -19,12 +19,11 @@ footer, a {
     margin-top: 10px;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width:1040px) {
     footer {
         padding: 16px 0 24px 0;
     }
-
-    .rodape-info {
+    .footer-informacoes  {
         width: 200px;
     }
 }

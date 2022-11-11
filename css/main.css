@@ -1,7 +1,7 @@
 main {
     background: rgb(248, 243, 158);
     padding: 48px 0;
-    color: rgb(24, 24, 24);
+    color: rgb(5, 5, 5);
 }
 
 main div {
@@ -17,7 +17,7 @@ main div {
     width: 400px;
     display: inline-block;
     border-radius: 8px;
-    box-shadow: 1px 1px 16px rgba(18, 18, 18, 0.2);
+    box-shadow: 1px 1px 16px rgba(242, 242, 242, 0.2);
 }
 
 .apresentacao-sobre {
@@ -40,9 +40,9 @@ strong {
 }
 
 .bckg-txt {
-    background-color: rgb(247, 237, 79);
+    background-color: rgb(251, 206, 8);
     box-shadow: 1px 1px 16px rgba(24, 21, 0);
-    color: rgb(6, 6, 6);
+    color: rgb(5, 5, 5);
     padding: 18px;
     display: inline-block;
     border-radius: 8px;
@@ -53,7 +53,7 @@ strong {
 }
 
 .bckg-txt a {
-    color: rgb(6, 6, 6);
+    color: rgb(5, 5, 5);
 }
 
 .margem-box {
