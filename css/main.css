@@ -17,7 +17,7 @@ main div {
     width: 400px;
     display: inline-block;
     border-radius: 8px;
-    box-shadow: 1px 1px 16px rgba(85, 85, 85, 0.2);
+    box-shadow: 1px 1px 16px rgb(85, 85, 85, 0.2);
 }
 
 .apresentacao-sobre {
